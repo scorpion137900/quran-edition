@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الموعظة</title>
+  <!-- Fonts Links Are in Description -->
+  <!-- thuluth decorated Font-->
+  <!-- <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated" /> -->
+  <!-- Cairo Font-->
+  <!-- <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=cairo-bold" /> -->
+  <!-- Font AWesome -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> -->
+  <!-- Main Style -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">الموعظة</div>
+      <ul>
+        <li data-filter="main"><a href="./index.html">الصفحة الرئيسية</a></li>
+        <!-- <li data-filter="hadith">أحاديث</li> -->
+        <li data-filter="lectures" class="active">محاضرات</li>
+        <li><a href="./quran.html">الْقُرْآن الْكَرِيْم</a> </li>
+        <li data-filter="pray">أوقات الصلاة</li>
+        <li data-filter="footer">تواصل معنا</li>
+      </ul>
+      <div class="bars">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <!-- Main Section -->
+  <section class="main">
+    <div class="container">
+      <div class="lec">
+        <!-- Search Form -->
+        <form class="search-lectures">
+          <input type="text" placeholder="البحث عن محاضرة">
+          <button type="submit">بحث</button>
+        </form>
+        <!-- Lec Boxes Container -->
+        <div class="lec-boxes">
+          <!-- Lectures  -->
+          <div class="lec-box">
+            <div class="loader-container">
+              <div class="loader"></div>
+            </div>
+
+            <iframe src="https://www.youtube.com/embed/631L-aGzfAE" frameborder="0"></iframe>
+            <p>عنوان المحاضرة</p>
+          </div>
+
+
+        </div>
+        <ul class="paginate">
+          <li><a href="">Prev</a></li>
+          <li class="active"><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pop Up -->
+  <!-- <div class="surah-popup ">
+    <div class="close-popup">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="ayat">
+
+    </div>
+  </div> -->
+  <!-- Scroll Top -->
+  <div class="scrollBtn">
+    <i class="fas fa-angle-double-up"></i>
+  </div>
+  <!-- Js File-->
+
+  <script src="js/main.js"></script>
+</body>

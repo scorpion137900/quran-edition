@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الموعظة</title>
+  <!-- Fonts Links Are in Description -->
+  <!-- thuluth decorated Font-->
+  <!-- <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated" /> -->
+  <!-- Cairo Font-->
+  <!-- <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=cairo-bold" /> -->
+  <!-- Font AWesome -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> -->
+  <!-- Main Style -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">الموعظة</div>
+      <ul>
+        <li><a href="./index.html">الصفحة الرئيسية</a></li>
+        <li><a href="./Lectures.html">محاضرات</a></li>
+        <li class="active"><a href="./quran.html">الْقُرْآن الْكَرِيْم</a> </li>
+        <li data-filter="quran">الْقُرْآن الْكَرِيْم - صوتي</li>
+      </ul>
+      <div class="bars">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <!-- Main Section -->
+  <section class="main">
+    <!-- Quran Section -->
+    <section class="quran">
+      <div class="quran-loader">
+        <div class="loader"></div>
+      </div>
+      <h3>الْقُرْآن الْكَرِيْم</h3>
+      <div class="container">
+        <div class="quran-surah-search">
+          <input type="text" id="quran-surah-search" placeholder="بحث بإسم الصورة">
+        </div>
+        <div class="surhasContainer">
+
+        </div>
+      </div>
+    </section>
+    <!-- End of Quran Section -->
+  </section>
+  <!--end Of Main Section -->
+
+
+
+  <!-- Pop Up -->
+  <div class="surah-popup ">
+    <div class="close-popup">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="ayat">
+
+    </div>
+  </div>
+  <!-- Scroll Top -->
+  <div class="scrollBtn">
+    <i class="fas fa-angle-double-up"></i>
+  </div>
+  <!-- Js File-->
+
+  <script src="js/main.js"></script>
+</body>
